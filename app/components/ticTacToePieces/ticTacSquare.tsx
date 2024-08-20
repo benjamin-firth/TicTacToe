@@ -15,7 +15,6 @@ export default function TicTacSquare({
   const [isPressed, setIsPressed] = useState(false);
   const [squareText, setSquareText] = useState(" ");
 
-  // Reset the square when clearGame is true
   useEffect(() => {
     if (clearGame) {
       setSquareText(" ");
