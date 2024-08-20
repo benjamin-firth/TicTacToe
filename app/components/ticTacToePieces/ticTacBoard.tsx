@@ -54,7 +54,7 @@ export default function TicTacBoard() {
     setIsPlayerX(true);
     setIsWon(false);
     setClearGame(true);
-    setTimeout(() => setClearGame(false), 100); // Reset the board squares
+    setTimeout(() => setClearGame(false), 100);
   };
 
   return (
